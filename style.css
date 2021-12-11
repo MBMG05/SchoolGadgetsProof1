@@ -1,0 +1,170 @@
+
+/*COLORES:
+MORADO:#4656E9
+BLANCO-GRIS:
+
+FUENTES:
+'Oswald'
+'PT Sans'
+*/
+
+/*                    
+    Configuracion de la pagina entera:
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #F0EBF8;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+::selection{
+    background: #F0EBF8;
+    color: #4656E9;
+}
+
+
+/*menuParte*/
+.TitleDivSt{
+    user-select: none;
+    height: auto; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+
+.TitleDivSt h1{
+    font-family: 'Oswald';
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    color: 	#4656E9;
+    padding: 1%;
+}
+
+.TitleDivMenu{
+    color: #F0EBF8;
+    background: #4656E9;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    font-family:'Oswald' ;
+    font-size: 110%;
+    border-radius: 5px;
+
+}
+.TitleDivMenu li {
+    display: inline;
+    padding: 1%;
+   
+}
+
+.TitleDivMenu li a{
+    color: #F0EBF8;
+    text-decoration: none;
+    transition-property: font-size;
+    transition-duration: 1s;
+    font-size: 110%;
+}
+.TitleDivMenu li a:hover{
+    text-decoration: underline;
+} 
+/*Inicio*/
+.InicioDivLeftPred{
+    background: #4656E9;
+    color:#F0EBF8;
+    padding: 1%;
+    border-radius: 5px;
+    width: 80%;
+    margin-right: auto;
+    margin-top: 2%;
+}
+
+.InicioDivRightPred{
+    background: #4656E9;
+    color:#F0EBF8;
+    padding: 1%;
+    border-radius: 5px;
+    width: 80%;
+    margin-left: auto;
+    margin-top: 2%;
+}
+
+/*FOOTER*/
+
+.Footer{
+    margin-top: 5%;
+}
+
+
+
+.DivFooterContactoRight{
+    display: inline-block;
+    width: 100%;
+    font-size: 150%;
+    border-radius: 5px;
+    color: #4656E9;
+}
+
+
+.FooterContactoTitle{
+    display: inline-block;
+}
+
+
+/*FOOTER ICONS*/
+
+
+.IconFooterright{
+    border: 2px solid ;
+    border-radius: 50%;
+    padding: 2%;
+}
+
+.IconFooterright:hover{
+    transition-property: box-shadow;
+    box-shadow: 2px 2px 0px #4656E9;
+}
+
+/*BOTONES*/
+
+.ButtonDesarrolloLink{
+    background: #F0EBF8;
+    color: #4656E9;
+    border:2px solid #F0EBF8;
+    border-radius: 5px;
+    padding: 1%;
+    font-family: 'PT Sans' ;
+    margin-top: 1%;
+    user-select: none;
+}
+
+.ButtonDesarrolloLink:hover{
+    background: #4656E9;
+    color: #F0EBF8;
+}
+
+/*  
+    -----------------------------------
+   ⟪01101101 00110001 01101011 01100101⟫
+    -----------------------------------
+                                 _.-_
+                             __.'  o "-.
+                    ___----""       ,,,'
+               __--"             _-_ ^^;
+       ____--""  ___         _-\"   `""
+..--===-------"""   "(   __-"  ,}
+                    .'_/"\
+                  .'/"  `\`._
+                  "-_c    "  
+    -----------------------------------
+                                        */
