@@ -1,0 +1,19 @@
+/*COLORES:
+MORADO:#4656E9
+BLANCO-GRIS: #F0EBF8
+
+FUENTES:
+'Oswald'
+'PT Sans'
+*/
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #4656E9;
+    font-family: 'Poppins', sans-serif;
+}
