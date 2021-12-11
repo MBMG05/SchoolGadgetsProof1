@@ -15,4 +15,59 @@ FUENTES:
 
 body{
     background: #4656E9;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+
+/*-------------------------*/
+.CenterDivPubl{
+    font-family: 'PT Sans' ;
+    width: 70vw;
+    height: auto;
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-shadow: 10px 10px 0px #fff;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    background:#F0EBF8;
+    color: #4656E9;
+    font-family: 'Poppins', sans-serif;
+}
+
+.CenterDivPubl h1{
+    text-align: center;
+    color: #F0EBF8;
+    padding: 5%;
+    background: #4656E9;
+    border-bottom: 2px solid #000;
+}
+
+.CenterDivTitl{
+    padding: 1%;
+    font-family: 'Oswald';
+    color: #4656E9;
+    font-size: 150%;
+    display: inline-block;
+    width: max-content;
+    text-align: left;
+}
+
+.CenterDivText{
+    padding: 1%;
+}
+
+    /*---*/
+.DiscordLinkDiv{
+    text-align: center;
+    padding: 2%;
+
+}
+
+.icon-discord{
+    color: #4656E9;
+    text-align: center;
+    font-size: 200%;
 }
